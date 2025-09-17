@@ -1,0 +1,23 @@
+    :root {
+      --bg: #fff;
+      --text: #232323;
+    }
+    .dark {
+      --bg: #232323;
+      --text: #fff;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      transition: 0.3s;
+    }
+
+  
+    #icon { cursor: pointer; 
+            font-size: 1.5rem;
+    }
+    
+    
+    #icon:hover {
+    animation: fa-shake 0.3s; 
+    }
