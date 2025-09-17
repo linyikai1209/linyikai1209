@@ -1,0 +1,21 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: linear-gradient(to left,red ,yellow);
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: radial-gradient(red ,yellow);
+}
+
+
+.box2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: radial-gradient(10% 10% ellipse at center,red ,yellow);
+}
